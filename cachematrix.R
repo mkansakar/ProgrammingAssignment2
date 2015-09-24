@@ -1,6 +1,7 @@
-# I beg you a pardon on this one. What I did here was just replaced the numeric() by matrix() and mean by solve :) in the code base below
-# https://class.coursera.org/rprog-032/human_grading/view/courses/975106/assessments/3/submissions
-# I seriously wanted to know hwo this code works. I tested it with a square matrix and it works file though.
+# What I did here was just replaced the numeric() by matrix() and mean by solve :) in the code for 
+#cachemean and cacheVector
+# 
+# I seriously wanted to know how it code works. I tested it with a square matrix and it works.
 makeCacheMatrix <- function(x = matrix()) {
         m<-NULL
         set<-function(y){
